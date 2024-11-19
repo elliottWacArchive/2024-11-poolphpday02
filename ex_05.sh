@@ -1,3 +1,3 @@
 #!/bin/bash
 
-grep -E '\smartin:|martin-' | wc -l
+grep -i -E '\smartin' | wc -l

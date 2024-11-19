@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sed -n 0~2p
+awk 'NR % 2 == 0'
