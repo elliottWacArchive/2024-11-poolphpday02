@@ -4,5 +4,5 @@ if [ "$#" -ne 1 ];
 then
     wc -l
 else
-    grep -w $@ | wc -l
+    grep -i -w $@ | wc -l
 fi
