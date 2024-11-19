@@ -1,7 +1,3 @@
 #!/bin/bash
 
-x = 0
-
-if [ x > 0 ];
-then
-    
+sed -n 0~2p
